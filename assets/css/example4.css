@@ -1,6 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
 .example.example4 * {
-    font-family: Inter, Open Sans, Segoe UI, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #000;
@@ -16,8 +19,8 @@
 }
 
 .example.example4 .container {
-  background-color: #fff;
-  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background: none;
+  box-shadow: none;
   border-radius: 4px;
   padding: 3px;
 }
@@ -41,8 +44,8 @@ p.message {
   float: left;
   width: 100%;
   text-align: center;
-  font-size: 13px;
-  color: #8898aa;
+  font-size: 14px;
+  color: #fff;
   padding: 3px 10px 7px;
 }
 
@@ -97,13 +100,15 @@ p.message {
     margin-top: 13px !important;
 }
 .example.example4 button {
-    display: block;
-    width: 100%;
-    height: 45px;
-    background-color: #000000;
-    border-radius: 5px;
-    color: #fff;
+        background-color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
     cursor: pointer;
+    font-family: "Poppins";
+    color: #00C4F0;
+    width: auto;
+    border-radius: 26px;
 }
 
 .example.example4 button:active {
@@ -142,3 +147,7 @@ p.message {
 .example.example4 .success .reset path {
   fill: #d782d9;
 }
+
+
+
+
