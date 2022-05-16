@@ -220,8 +220,36 @@ function popup_product_widget(){
                                     </div>
                                 </div>
                             </div>
-                            <div class="live-btn mp-live">
+                            <div class="live-btn mp-live flex-row">
                                 <button type="button" class="live-che cp-make-payment">Proceed To Checkout</button>
+                               <div class="powered-by">
+                                    <span> POWERED BY </span>
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="44px" height="44px">
+                                    <g id="Icon">
+                                        
+                                            <linearGradient id="Ellipse_1_" gradientUnits="userSpaceOnUse" x1="-571.3055" y1="526.754" x2="-570.3055" y2="526.754" gradientTransform="matrix(36 0 0 -36 20567 18981.1445)">
+                                            <stop  offset="0" style="stop-color:#008BD0"/>
+                                            <stop  offset="1" style="stop-color:#00C4F0"/>
+                                        </linearGradient>
+                                        <circle id="Ellipse" class="st0" cx="18" cy="18" r="18" style="fill:url(#Ellipse_1_);" />
+                                        <g id="vuesax_bulk_wallet" transform="translate(-92 -492)">
+                                            <g id="wallet" transform="translate(108 508)">
+                                                <path id="Vector-3" class="st1" d="M2.8-5.9L2.8-5.9L0.3-0.2h-2.4c-0.5,0-1.1,0.1-1.6,0.3l1.5-3.5l0-0.1l0-0.1
+                                                    c0-0.1,0-0.1,0.1-0.2C-1-6.3,0.3-6.8,2.8-5.9z" style="opacity:0.8;fill:#FFFFFF;enable-background:new;" />
+                                                <path id="Vector-4" class="st2" d="M7.2-0.1C6.9-0.2,6.5-0.2,6.1-0.2H0.3l2.4-5.6l0-0.1c0.1,0,0.2,0.1,0.4,0.1L5-5
+                                                    c0.8,0.3,1.6,0.8,2.2,1.4c0.1,0.1,0.1,0.2,0.2,0.3C7.4-3.2,7.5-3,7.5-2.9c0,0.1,0.1,0.1,0.1,0.2C7.8-1.8,7.7-0.9,7.2-0.1z" style="fill:#FFFFFF;" />
+                                                <path id="Vector-5" class="st3" d="M10.1,3.8v1.6c0,0.2,0,0.3,0,0.5c-0.2,2.9-1.8,4.4-4.9,4.4h-6.5c-0.2,0-0.4,0-0.6,0
+                                                    C-4.1,10.4-6,8.6-6.1,6.4c0-0.1,0-0.2,0-0.3c0-0.2,0-0.4,0-0.6V3.8c0-1.6,1-3.1,2.5-3.7c0.5-0.2,1-0.3,1.6-0.3h8.1
+                                                    c0.4,0,0.8,0.1,1.2,0.2C9,0.5,10.1,2,10.1,3.8z" style="opacity:0.4;fill:#FFFFFF;enable-background:new" />
+                                                <path id="Vector-6" class="st4" d="M-2.2-3.4l-1.5,3.5c-1.5,0.6-2.5,2.1-2.5,3.7V1.4C-6.1-0.9-4.5-2.9-2.2-3.4z" style="opacity:0.6;fill:#FFFFFF;enable-background:new;" />
+                                                <path id="Vector-7" class="st4" d="M10.1,1.4v2.4C10.1,2,9,0.5,7.2-0.1c0.4-0.8,0.5-1.7,0.3-2.6c0-0.1,0-0.1-0.1-0.2
+                                                    C9.1-2.1,10.1-0.4,10.1,1.4z" style="opacity:0.6;fill:#FFFFFF;enable-background:new;"/>
+                                                <path id="Vector-8" class="st5" d="M-8-8h20v20H-8V-8z" style="fill:none;" />
+                                            </g>
+                                        </g>
+                                    </g>
+                                    </svg>
+                               </div>
                             </div>
                         </div>
                         <div class="tab cp_tebbing">
@@ -237,8 +265,36 @@ function popup_product_widget(){
                                     <textarea rows="2" name="comment" form="usrform" placeholder="Enter Description..." class="form-control"></textarea>
                                 </div>
                             </div>
-                            <div class="live-btn">
+                            <div class="live-btn flex-row">
                                 <button type="button" class="live-che cp-live">Proceed To Checkout</button>
+                                <div class="powered-by">
+                                    <span> POWERED BY </span>
+                                    <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="44px" height="44px">
+                                    <g id="Icon1">
+                                        
+                                            <linearGradient id="Ellipse_2_" gradientUnits="userSpaceOnUse" x1="-571.3055" y1="526.754" x2="-570.3055" y2="526.754" gradientTransform="matrix(36 0 0 -36 20567 18981.1445)">
+                                            <stop  offset="0" style="stop-color:#008BD0"/>
+                                            <stop  offset="1" style="stop-color:#00C4F0"/>
+                                        </linearGradient>
+                                        <circle id="Ellipse1" class="st0" cx="18" cy="18" r="18" style="fill:url(#Ellipse_2_);" />
+                                        <g id="vuesax_bulk_wallet1" transform="translate(-92 -492)">
+                                            <g id="wallet1" transform="translate(108 508)">
+                                                <path id="Vector-31" class="st1" d="M2.8-5.9L2.8-5.9L0.3-0.2h-2.4c-0.5,0-1.1,0.1-1.6,0.3l1.5-3.5l0-0.1l0-0.1
+                                                    c0-0.1,0-0.1,0.1-0.2C-1-6.3,0.3-6.8,2.8-5.9z" style="opacity:0.8;fill:#FFFFFF;enable-background:new;" />
+                                                <path id="Vector-41" class="st2" d="M7.2-0.1C6.9-0.2,6.5-0.2,6.1-0.2H0.3l2.4-5.6l0-0.1c0.1,0,0.2,0.1,0.4,0.1L5-5
+                                                    c0.8,0.3,1.6,0.8,2.2,1.4c0.1,0.1,0.1,0.2,0.2,0.3C7.4-3.2,7.5-3,7.5-2.9c0,0.1,0.1,0.1,0.1,0.2C7.8-1.8,7.7-0.9,7.2-0.1z" style="fill:#FFFFFF;" />
+                                                <path id="Vector-51" class="st3" d="M10.1,3.8v1.6c0,0.2,0,0.3,0,0.5c-0.2,2.9-1.8,4.4-4.9,4.4h-6.5c-0.2,0-0.4,0-0.6,0
+                                                    C-4.1,10.4-6,8.6-6.1,6.4c0-0.1,0-0.2,0-0.3c0-0.2,0-0.4,0-0.6V3.8c0-1.6,1-3.1,2.5-3.7c0.5-0.2,1-0.3,1.6-0.3h8.1
+                                                    c0.4,0,0.8,0.1,1.2,0.2C9,0.5,10.1,2,10.1,3.8z" style="opacity:0.4;fill:#FFFFFF;enable-background:new" />
+                                                <path id="Vector-61" class="st4" d="M-2.2-3.4l-1.5,3.5c-1.5,0.6-2.5,2.1-2.5,3.7V1.4C-6.1-0.9-4.5-2.9-2.2-3.4z" style="opacity:0.6;fill:#FFFFFF;enable-background:new;" />
+                                                <path id="Vector-71" class="st4" d="M10.1,1.4v2.4C10.1,2,9,0.5,7.2-0.1c0.4-0.8,0.5-1.7,0.3-2.6c0-0.1,0-0.1-0.1-0.2
+                                                    C9.1-2.1,10.1-0.4,10.1,1.4z" style="opacity:0.6;fill:#FFFFFF;enable-background:new;"/>
+                                                <path id="Vector-81" class="st5" d="M-8-8h20v20H-8V-8z" style="fill:none;" />
+                                            </g>
+                                        </g>
+                                    </g>
+                                    </svg>
+                               </div>
                             </div>
 
                         </div>
@@ -261,8 +317,37 @@ function popup_product_widget(){
                             </div>
 
                           </fieldset>
-                          <div class="pay-btnnn">
+                          <div class="pay-btnnn flex-row">
                             <button type="submit" data-tid="elements_examples.form.donate_button" class="cp-make-pay">Pay Now</button>
+                            <div class="powered-by">
+                                    <span> POWERED BY </span>
+                            <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="44px" height="44px">
+                                    <g id="Icon1">
+                                        
+                                            <linearGradient id="Ellipse_3_" gradientUnits="userSpaceOnUse" x1="-571.3055" y1="526.754" x2="-570.3055" y2="526.754" gradientTransform="matrix(36 0 0 -36 20567 18981.1445)">
+                                            <stop  offset="0" style="stop-color:#008BD0"/>
+                                            <stop  offset="1" style="stop-color:#00C4F0"/>
+                                        </linearGradient>
+                                        <circle id="Ellipse1" class="st0" cx="18" cy="18" r="18" style="fill:url(#Ellipse_3_);" />
+                                        <g id="vuesax_bulk_wallet1" transform="translate(-92 -492)">
+                                            <g id="wallet1" transform="translate(108 508)">
+                                                <path id="Vector-31" class="st1" d="M2.8-5.9L2.8-5.9L0.3-0.2h-2.4c-0.5,0-1.1,0.1-1.6,0.3l1.5-3.5l0-0.1l0-0.1
+                                                    c0-0.1,0-0.1,0.1-0.2C-1-6.3,0.3-6.8,2.8-5.9z" style="opacity:0.8;fill:#FFFFFF;enable-background:new;" />
+                                                <path id="Vector-41" class="st2" d="M7.2-0.1C6.9-0.2,6.5-0.2,6.1-0.2H0.3l2.4-5.6l0-0.1c0.1,0,0.2,0.1,0.4,0.1L5-5
+                                                    c0.8,0.3,1.6,0.8,2.2,1.4c0.1,0.1,0.1,0.2,0.2,0.3C7.4-3.2,7.5-3,7.5-2.9c0,0.1,0.1,0.1,0.1,0.2C7.8-1.8,7.7-0.9,7.2-0.1z" style="fill:#FFFFFF;" />
+                                                <path id="Vector-51" class="st3" d="M10.1,3.8v1.6c0,0.2,0,0.3,0,0.5c-0.2,2.9-1.8,4.4-4.9,4.4h-6.5c-0.2,0-0.4,0-0.6,0
+                                                    C-4.1,10.4-6,8.6-6.1,6.4c0-0.1,0-0.2,0-0.3c0-0.2,0-0.4,0-0.6V3.8c0-1.6,1-3.1,2.5-3.7c0.5-0.2,1-0.3,1.6-0.3h8.1
+                                                    c0.4,0,0.8,0.1,1.2,0.2C9,0.5,10.1,2,10.1,3.8z" style="opacity:0.4;fill:#FFFFFF;enable-background:new" />
+                                                <path id="Vector-61" class="st4" d="M-2.2-3.4l-1.5,3.5c-1.5,0.6-2.5,2.1-2.5,3.7V1.4C-6.1-0.9-4.5-2.9-2.2-3.4z" style="opacity:0.6;fill:#FFFFFF;enable-background:new;" />
+                                                <path id="Vector-71" class="st4" d="M10.1,1.4v2.4C10.1,2,9,0.5,7.2-0.1c0.4-0.8,0.5-1.7,0.3-2.6c0-0.1,0-0.1-0.1-0.2
+                                                    C9.1-2.1,10.1-0.4,10.1,1.4z" style="opacity:0.6;fill:#FFFFFF;enable-background:new;"/>
+                                                <path id="Vector-81" class="st5" d="M-8-8h20v20H-8V-8z" style="fill:none;" />
+                                            </g>
+                                        </g>
+                                    </g>
+                                    </svg>
+                                    </span>
+                                </div>
                           </div>
                           
                           <div class="error" role="alert"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
