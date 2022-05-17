@@ -64,7 +64,7 @@
 }
 /*NEW CSS IS HERE*/
 .dark .paymnt_popupp {
-    background-color: rgb(255 255 255 / 50%);
+    background-color: rgb(164 164 164 / 50%);
 }
 .dark .paymnt_popupp > .form-container {
     background: #00000052 0% 0% no-repeat padding-box;
@@ -96,9 +96,12 @@
 .dark.product-price-sec > span.price-spann {
     border: 1px dashed #fff;
 }
-.dark .tab .form-control {
+.dark .tab .form-control, .dark .card-header_inner > button {
     background: #00000052 0% 0% no-repeat padding-box;
     color: #fff !important;
+}
+.dark .cardd .card-body {
+    background: #00000036 0% 0% no-repeat padding-box;
 }
 .dark .tab .form-control::placeholder {
     color: #fff !important;

@@ -186,7 +186,11 @@ function popup_product_widget(){
     <div class="chat-popup paymnt_popupp" id="myForm">
       <div  class="form-container">
         <div class="test-f">
-            <p class="head-pop-title">'.$p_title.'</p>
+            <div>
+                <!--p class="head-pop-title">.$p_title.</p-->
+            <p class="head-pop-title">Hi there!</p>
+                <p class="subtitle-descp">Please choose between the displayed options to continue using our payment plugin.</p>
+            </div>
             <label class="switch custom-switchh dark-theme-switch">
               <input type="checkbox">
               <span class="slider round" id="rounds" value="0"></span>
@@ -218,7 +222,65 @@ function popup_product_widget(){
                                         <label>Price</label>
                                         <span class="price-spann">$200.00</span>    
                                     </div>
+
                                 </div>
+
+                                <div id="ex" style="display:none;"><div class="payment-secc">
+                                <h2 class="paymentt-title">Payment options!</h2>
+                                <div class="pay-optionns">
+                                    <div class="pay-optionns-inner">
+                                        <div class="accordion" id="accordionExample">
+                                          <div class="cardd">
+                                            <div class="card-header" id="headingOne">
+                                              <div class="card-header_inner">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                  ACH - Wire Transfer
+                                                </button>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                  <g id="add-square" transform="translate(-620 -252)">
+                                                    <path id="Vector" d="M0,0H8" transform="translate(628 264)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path class="vector-211" id="Vector-2" data-name="Vector" d="M0,8V0" transform="translate(632 260)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path id="Vector-3" data-name="Vector" d="M7,20h6c5,0,7-2,7-7V7c0-5-2-7-7-7H7C2,0,0,2,0,7v6C0,18,2,20,7,20Z" transform="translate(622 254)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path id="Vector-4" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(620 252)" fill="none" opacity="0"/>
+                                                  </g>
+                                                </svg>
+
+                                              </div>
+                                            </div>
+
+                                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                              <div class="card-body">
+                                                content here
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="cardd">
+                                            <div class="card-header" id="headingTwo">
+                                              <div class="card-header_inner">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                  Credit / Debit Card
+                                                </button>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                    <g id="add-square" transform="translate(-620 -252)">
+                                                    <path id="Vector1" d="M0,0H8" transform="translate(628 264)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path class="vector-211" id="Vector-21" data-name="Vector" d="M0,8V0" transform="translate(632 260)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path id="Vector-31" data-name="Vector" d="M7,20h6c5,0,7-2,7-7V7c0-5-2-7-7-7H7C2,0,0,2,0,7v6C0,18,2,20,7,20Z" transform="translate(622 254)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path id="Vector-41" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(620 252)" fill="none" opacity="0"/>
+                                                    </g>
+                                                </svg>
+                                              </div>
+                                            </div>
+                                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                              <div class="card-body">
+                                                 content here
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                                    
                             </div>
                             <div class="live-btn mp-live flex-row">
                                 <button type="button" class="live-che cp-make-payment">Proceed To Checkout</button>
@@ -263,6 +325,64 @@ function popup_product_widget(){
                                 <div class="cp-enter-amout">
                                     <label>Description</label>
                                     <textarea rows="2" name="comment" form="usrform" placeholder="Enter Description..." class="form-control"></textarea>
+                                </div>
+                            </div>
+                            <div>
+
+                            </div>
+                            <div class="payment-secc">
+                                <h2 class="paymentt-title">Payment options!</h2>
+                                <div class="pay-optionns">
+                                    <div class="pay-optionns-inner">
+                                        <div class="accordion" id="accordionExample">
+                                          <div class="cardd">
+                                            <div class="card-header" id="headingOne">
+                                              <div class="card-header_inner">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                  ACH - Wire Transfer
+                                                </button>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                  <g id="add-square" transform="translate(-620 -252)">
+                                                    <path id="Vector" d="M0,0H8" transform="translate(628 264)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path class="vector-211" id="Vector-2" data-name="Vector" d="M0,8V0" transform="translate(632 260)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path id="Vector-3" data-name="Vector" d="M7,20h6c5,0,7-2,7-7V7c0-5-2-7-7-7H7C2,0,0,2,0,7v6C0,18,2,20,7,20Z" transform="translate(622 254)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path id="Vector-4" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(620 252)" fill="none" opacity="0"/>
+                                                  </g>
+                                                </svg>
+
+                                              </div>
+                                            </div>
+
+                                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                              <div class="card-body">
+                                                content here
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="cardd">
+                                            <div class="card-header" id="headingTwo">
+                                              <div class="card-header_inner">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                  Credit / Debit Card
+                                                </button>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                    <g id="add-square" transform="translate(-620 -252)">
+                                                    <path id="Vector1" d="M0,0H8" transform="translate(628 264)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path class="vector-211" id="Vector-21" data-name="Vector" d="M0,8V0" transform="translate(632 260)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path id="Vector-31" data-name="Vector" d="M7,20h6c5,0,7-2,7-7V7c0-5-2-7-7-7H7C2,0,0,2,0,7v6C0,18,2,20,7,20Z" transform="translate(622 254)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path id="Vector-41" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(620 252)" fill="none" opacity="0"/>
+                                                    </g>
+                                                </svg>
+                                              </div>
+                                            </div>
+                                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                              <div class="card-body">
+                                                 content here
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="live-btn flex-row">
@@ -453,12 +573,13 @@ function popup_product_widget(){
 
             }
        
+
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 
 <link rel="stylesheet" href="'.plugin_dir_url( __FILE__ ).'assets/css/dark_theme.css">
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script>
 $(document).on("change",".switch",function() { 
      $("body").toggleClass("dark");
@@ -566,12 +687,15 @@ $(document).on("change",".switch",function() {
 		if(pro_id == ""){
 				jQuery(".tawk-product-description").hide();
 		} else {
+            var r = "";
 			jQuery.ajax({
 				type:"post",
 				url:"'.admin_url('admin-ajax.php').'",
 				data:{action:"get_custom_product_info",pro_id:pro_id},
-				success:function(res){
-				     jQuery(".tawk-product-description").html(res);
+				success:function(res){ 
+                    r += res;
+                    r += $("#ex").html();
+				     jQuery(".tawk-product-description").html(r);
 					jQuery(".tawk-product-description").show();
 					
 				}
