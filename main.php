@@ -174,7 +174,7 @@ function popup_product_widget(){
                 }
     $prod_drop .= '</select>';
 
-    echo ' <button class="open-button">
+    echo ' <button class="open-button paymnt_popupp_btnn">
             <div class="cp-chat-img" id="cp-chat-icon" onclick="openForm()">
                 <img src="'.$p_icon_url.'" >
             </div>
@@ -183,22 +183,30 @@ function popup_product_widget(){
             </div>
             </button>
 
-    <div class="chat-popup" id="myForm">
+    <div class="chat-popup paymnt_popupp" id="myForm">
       <div  class="form-container">
         <div class="test-f">
-            <p>'.$p_title.'</p>
+            <div>
+                <!--p class="head-pop-title">.$p_title.</p-->
+            <p class="head-pop-title">Hi there!</p>
+                <p class="subtitle-descp">Please choose between the displayed options to continue using our payment plugin.</p>
+            </div>
+            <label class="switch custom-switchh dark-theme-switch">
+              <input type="checkbox">
+              <span class="slider round" id="rounds" value="0"></span>
+            </label>
         </div>
     
         <div class="tawk-body">
             <div class="tawk-form">
             <form action="" class="form-container" onsubmit="return false;">
                 <div class="tabs-container">
-                    <div class="tabs">
-                        <input type="radio" name="tabs" id="tab-1" checked="checked">
-                        <label for="tab-1">Product List</label>
+                    <div class="tabs tabsss-main">
+                        <input type="radio" name="tabs" id="tab-1" checked class="">
+                        <label for="tab-1" class="tabsss">Product List</label>
 
                         <input type="radio" name="tabs" id="tab-2">
-                        <label for="tab-2">Custom Payment</label>
+                        <label for="tab-2" class="tabsss">Custom Payment</label>
 
                         <div class="tab cp-tab">
                             <div class="tawk-product">
@@ -212,39 +220,214 @@ function popup_product_widget(){
                                     </div>
                                     <div class="product-price-sec">
                                         <label>Price</label>
-                                        <span>$200.00</span>    
+                                        <span class="price-spann">$200.00</span>    
+                                    </div>
+
+                                </div>
+
+                                <div id="ex" style="display:none;"><div class="payment-secc">
+                                <h2 class="paymentt-title">Payment options!</h2>
+                                <div class="pay-optionns">
+                                    <div class="pay-optionns-inner">
+                                        <div class="accordion" id="accordionExample">
+                                          <div class="cardd">
+                                            <div class="card-header" id="headingOne">
+                                              <div class="card-header_inner">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                  ACH - Wire Transfer
+                                                </button>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                  <g id="add-square" transform="translate(-620 -252)">
+                                                    <path id="Vector" d="M0,0H8" transform="translate(628 264)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path class="vector-211" id="Vector-2" data-name="Vector" d="M0,8V0" transform="translate(632 260)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path id="Vector-3" data-name="Vector" d="M7,20h6c5,0,7-2,7-7V7c0-5-2-7-7-7H7C2,0,0,2,0,7v6C0,18,2,20,7,20Z" transform="translate(622 254)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path id="Vector-4" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(620 252)" fill="none" opacity="0"/>
+                                                  </g>
+                                                </svg>
+
+                                              </div>
+                                            </div>
+
+                                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                              <div class="card-body">
+                                                content here
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="cardd">
+                                            <div class="card-header" id="headingTwo">
+                                              <div class="card-header_inner">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                  Credit / Debit Card
+                                                </button>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                    <g id="add-square" transform="translate(-620 -252)">
+                                                    <path id="Vector1" d="M0,0H8" transform="translate(628 264)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path class="vector-211" id="Vector-21" data-name="Vector" d="M0,8V0" transform="translate(632 260)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path id="Vector-31" data-name="Vector" d="M7,20h6c5,0,7-2,7-7V7c0-5-2-7-7-7H7C2,0,0,2,0,7v6C0,18,2,20,7,20Z" transform="translate(622 254)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path id="Vector-41" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(620 252)" fill="none" opacity="0"/>
+                                                    </g>
+                                                </svg>
+                                              </div>
+                                            </div>
+                                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                              <div class="card-body">
+                                                 content here
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
                                     </div>
                                 </div>
+                            </div></div>
+                                    
                             </div>
-                            <div class="live-btn mp-live">
+                            <div class="live-btn mp-live flex-row">
                                 <button type="button" class="live-che cp-make-payment">Proceed To Checkout</button>
+                               <div class="powered-by">
+                                    <span> POWERED BY </span>
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="44px" height="44px">
+                                    <g id="Icon">
+                                        
+                                            <linearGradient id="Ellipse_1_" gradientUnits="userSpaceOnUse" x1="-571.3055" y1="526.754" x2="-570.3055" y2="526.754" gradientTransform="matrix(36 0 0 -36 20567 18981.1445)">
+                                            <stop  offset="0" style="stop-color:#008BD0"/>
+                                            <stop  offset="1" style="stop-color:#00C4F0"/>
+                                        </linearGradient>
+                                        <circle id="Ellipse" class="st0" cx="18" cy="18" r="18" style="fill:url(#Ellipse_1_);" />
+                                        <g id="vuesax_bulk_wallet" transform="translate(-92 -492)">
+                                            <g id="wallet" transform="translate(108 508)">
+                                                <path id="Vector-3" class="st1" d="M2.8-5.9L2.8-5.9L0.3-0.2h-2.4c-0.5,0-1.1,0.1-1.6,0.3l1.5-3.5l0-0.1l0-0.1
+                                                    c0-0.1,0-0.1,0.1-0.2C-1-6.3,0.3-6.8,2.8-5.9z" style="opacity:0.8;fill:#FFFFFF;enable-background:new;" />
+                                                <path id="Vector-4" class="st2" d="M7.2-0.1C6.9-0.2,6.5-0.2,6.1-0.2H0.3l2.4-5.6l0-0.1c0.1,0,0.2,0.1,0.4,0.1L5-5
+                                                    c0.8,0.3,1.6,0.8,2.2,1.4c0.1,0.1,0.1,0.2,0.2,0.3C7.4-3.2,7.5-3,7.5-2.9c0,0.1,0.1,0.1,0.1,0.2C7.8-1.8,7.7-0.9,7.2-0.1z" style="fill:#FFFFFF;" />
+                                                <path id="Vector-5" class="st3" d="M10.1,3.8v1.6c0,0.2,0,0.3,0,0.5c-0.2,2.9-1.8,4.4-4.9,4.4h-6.5c-0.2,0-0.4,0-0.6,0
+                                                    C-4.1,10.4-6,8.6-6.1,6.4c0-0.1,0-0.2,0-0.3c0-0.2,0-0.4,0-0.6V3.8c0-1.6,1-3.1,2.5-3.7c0.5-0.2,1-0.3,1.6-0.3h8.1
+                                                    c0.4,0,0.8,0.1,1.2,0.2C9,0.5,10.1,2,10.1,3.8z" style="opacity:0.4;fill:#FFFFFF;enable-background:new" />
+                                                <path id="Vector-6" class="st4" d="M-2.2-3.4l-1.5,3.5c-1.5,0.6-2.5,2.1-2.5,3.7V1.4C-6.1-0.9-4.5-2.9-2.2-3.4z" style="opacity:0.6;fill:#FFFFFF;enable-background:new;" />
+                                                <path id="Vector-7" class="st4" d="M10.1,1.4v2.4C10.1,2,9,0.5,7.2-0.1c0.4-0.8,0.5-1.7,0.3-2.6c0-0.1,0-0.1-0.1-0.2
+                                                    C9.1-2.1,10.1-0.4,10.1,1.4z" style="opacity:0.6;fill:#FFFFFF;enable-background:new;"/>
+                                                <path id="Vector-8" class="st5" d="M-8-8h20v20H-8V-8z" style="fill:none;" />
+                                            </g>
+                                        </g>
+                                    </g>
+                                    </svg>
+                               </div>
                             </div>
                         </div>
                         <div class="tab cp_tebbing">
-                            <div class="cp-enter-amout cp_amout">
-                                <label>Amount</label>
-                                <div class="currency-div"><input type="number" id="quantity" name="quantity" min="1" max="10" placeholder="0.00" autocomplete="off"></div>
-                                <p class="cp_error_p_amt" style="display:none">Please enter amount.</p>
+                            <div class="tab-field-inner">
+                                <div class="cp-enter-amout cp_amout">
+                                    <label>Amount</label>
+                                    <div class="currency-div">
+                                    <input type="number" id="quantity" name="quantity" min="1" max="10" placeholder="0.00" autocomplete="off" class="form-control"></div>
+                                    <p class="cp_error_p_amt" style="display:none">Please enter amount.</p>
+                                </div>
+                                <div class="cp-enter-amout">
+                                    <label>Description</label>
+                                    <textarea rows="2" name="comment" form="usrform" placeholder="Enter Description..." class="form-control"></textarea>
+                                </div>
                             </div>
-                            <div class="cp-enter-amout">
-                                <label>Description</label>
-                                <textarea rows="2" name="comment" form="usrform" placeholder="Enter Description..."></textarea>
+                            <div>
+
                             </div>
-                            <div class="live-btn">
+                            <div class="payment-secc">
+                                <h2 class="paymentt-title">Payment options!</h2>
+                                <div class="pay-optionns">
+                                    <div class="pay-optionns-inner">
+                                        <div class="accordion" id="accordionExample">
+                                          <div class="cardd">
+                                            <div class="card-header" id="headingOne">
+                                              <div class="card-header_inner">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                  ACH - Wire Transfer
+                                                </button>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                  <g id="add-square" transform="translate(-620 -252)">
+                                                    <path id="Vector" d="M0,0H8" transform="translate(628 264)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path class="vector-211" id="Vector-2" data-name="Vector" d="M0,8V0" transform="translate(632 260)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path id="Vector-3" data-name="Vector" d="M7,20h6c5,0,7-2,7-7V7c0-5-2-7-7-7H7C2,0,0,2,0,7v6C0,18,2,20,7,20Z" transform="translate(622 254)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path id="Vector-4" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(620 252)" fill="none" opacity="0"/>
+                                                  </g>
+                                                </svg>
+
+                                              </div>
+                                            </div>
+
+                                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                              <div class="card-body">
+                                                content here
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="cardd">
+                                            <div class="card-header" id="headingTwo">
+                                              <div class="card-header_inner">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                  Credit / Debit Card
+                                                </button>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                    <g id="add-square" transform="translate(-620 -252)">
+                                                    <path id="Vector1" d="M0,0H8" transform="translate(628 264)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path class="vector-211" id="Vector-21" data-name="Vector" d="M0,8V0" transform="translate(632 260)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path id="Vector-31" data-name="Vector" d="M7,20h6c5,0,7-2,7-7V7c0-5-2-7-7-7H7C2,0,0,2,0,7v6C0,18,2,20,7,20Z" transform="translate(622 254)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path id="Vector-41" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(620 252)" fill="none" opacity="0"/>
+                                                    </g>
+                                                </svg>
+                                              </div>
+                                            </div>
+                                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                              <div class="card-body">
+                                                 content here
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="live-btn flex-row">
                                 <button type="button" class="live-che cp-live">Proceed To Checkout</button>
+                                <div class="powered-by">
+                                    <span> POWERED BY </span>
+                                    <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="44px" height="44px">
+                                    <g id="Icon1">
+                                        
+                                            <linearGradient id="Ellipse_2_" gradientUnits="userSpaceOnUse" x1="-571.3055" y1="526.754" x2="-570.3055" y2="526.754" gradientTransform="matrix(36 0 0 -36 20567 18981.1445)">
+                                            <stop  offset="0" style="stop-color:#008BD0"/>
+                                            <stop  offset="1" style="stop-color:#00C4F0"/>
+                                        </linearGradient>
+                                        <circle id="Ellipse1" class="st0" cx="18" cy="18" r="18" style="fill:url(#Ellipse_2_);" />
+                                        <g id="vuesax_bulk_wallet1" transform="translate(-92 -492)">
+                                            <g id="wallet1" transform="translate(108 508)">
+                                                <path id="Vector-31" class="st1" d="M2.8-5.9L2.8-5.9L0.3-0.2h-2.4c-0.5,0-1.1,0.1-1.6,0.3l1.5-3.5l0-0.1l0-0.1
+                                                    c0-0.1,0-0.1,0.1-0.2C-1-6.3,0.3-6.8,2.8-5.9z" style="opacity:0.8;fill:#FFFFFF;enable-background:new;" />
+                                                <path id="Vector-41" class="st2" d="M7.2-0.1C6.9-0.2,6.5-0.2,6.1-0.2H0.3l2.4-5.6l0-0.1c0.1,0,0.2,0.1,0.4,0.1L5-5
+                                                    c0.8,0.3,1.6,0.8,2.2,1.4c0.1,0.1,0.1,0.2,0.2,0.3C7.4-3.2,7.5-3,7.5-2.9c0,0.1,0.1,0.1,0.1,0.2C7.8-1.8,7.7-0.9,7.2-0.1z" style="fill:#FFFFFF;" />
+                                                <path id="Vector-51" class="st3" d="M10.1,3.8v1.6c0,0.2,0,0.3,0,0.5c-0.2,2.9-1.8,4.4-4.9,4.4h-6.5c-0.2,0-0.4,0-0.6,0
+                                                    C-4.1,10.4-6,8.6-6.1,6.4c0-0.1,0-0.2,0-0.3c0-0.2,0-0.4,0-0.6V3.8c0-1.6,1-3.1,2.5-3.7c0.5-0.2,1-0.3,1.6-0.3h8.1
+                                                    c0.4,0,0.8,0.1,1.2,0.2C9,0.5,10.1,2,10.1,3.8z" style="opacity:0.4;fill:#FFFFFF;enable-background:new" />
+                                                <path id="Vector-61" class="st4" d="M-2.2-3.4l-1.5,3.5c-1.5,0.6-2.5,2.1-2.5,3.7V1.4C-6.1-0.9-4.5-2.9-2.2-3.4z" style="opacity:0.6;fill:#FFFFFF;enable-background:new;" />
+                                                <path id="Vector-71" class="st4" d="M10.1,1.4v2.4C10.1,2,9,0.5,7.2-0.1c0.4-0.8,0.5-1.7,0.3-2.6c0-0.1,0-0.1-0.1-0.2
+                                                    C9.1-2.1,10.1-0.4,10.1,1.4z" style="opacity:0.6;fill:#FFFFFF;enable-background:new;"/>
+                                                <path id="Vector-81" class="st5" d="M-8-8h20v20H-8V-8z" style="fill:none;" />
+                                            </g>
+                                        </g>
+                                    </g>
+                                    </svg>
+                               </div>
                             </div>
 
                         </div>
                     </div>
                 </div>
             </form>
-                <div class="cell example example4" id="example-4">
-                    <a href="javascript:void(0);" class="back_to_form">&#8592;  Back</a>
+                <div class="cell example example4 sttripe-pmnt-div" id="example-4">
+                        <a href="javascript:void(0);" class="back_to_form">Back</a>
                         <form>
                           <div id="example4-paymentRequest">
                             <!--Stripe paymentRequestButton Element inserted here-->
                           </div>
-                          <fieldset>
+                          <fieldset class="stripe-main-div">
                             <legend class="card-only" data-tid="elements_examples.form.pay_with_card">Pay with card</legend>
                             <legend class="payment-request-available" data-tid="elements_examples.form.enter_card_manually">Or enter card details</legend>
                             <div class="container">
@@ -254,7 +437,39 @@ function popup_product_widget(){
                             </div>
 
                           </fieldset>
-                          <button type="submit" data-tid="elements_examples.form.donate_button" class="cp-make-pay">Pay Now</button>
+                          <div class="pay-btnnn flex-row">
+                            <button type="submit" data-tid="elements_examples.form.donate_button" class="cp-make-pay">Pay Now</button>
+                            <div class="powered-by">
+                                    <span> POWERED BY </span>
+                            <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="44px" height="44px">
+                                    <g id="Icon1">
+                                        
+                                            <linearGradient id="Ellipse_3_" gradientUnits="userSpaceOnUse" x1="-571.3055" y1="526.754" x2="-570.3055" y2="526.754" gradientTransform="matrix(36 0 0 -36 20567 18981.1445)">
+                                            <stop  offset="0" style="stop-color:#008BD0"/>
+                                            <stop  offset="1" style="stop-color:#00C4F0"/>
+                                        </linearGradient>
+                                        <circle id="Ellipse1" class="st0" cx="18" cy="18" r="18" style="fill:url(#Ellipse_3_);" />
+                                        <g id="vuesax_bulk_wallet1" transform="translate(-92 -492)">
+                                            <g id="wallet1" transform="translate(108 508)">
+                                                <path id="Vector-31" class="st1" d="M2.8-5.9L2.8-5.9L0.3-0.2h-2.4c-0.5,0-1.1,0.1-1.6,0.3l1.5-3.5l0-0.1l0-0.1
+                                                    c0-0.1,0-0.1,0.1-0.2C-1-6.3,0.3-6.8,2.8-5.9z" style="opacity:0.8;fill:#FFFFFF;enable-background:new;" />
+                                                <path id="Vector-41" class="st2" d="M7.2-0.1C6.9-0.2,6.5-0.2,6.1-0.2H0.3l2.4-5.6l0-0.1c0.1,0,0.2,0.1,0.4,0.1L5-5
+                                                    c0.8,0.3,1.6,0.8,2.2,1.4c0.1,0.1,0.1,0.2,0.2,0.3C7.4-3.2,7.5-3,7.5-2.9c0,0.1,0.1,0.1,0.1,0.2C7.8-1.8,7.7-0.9,7.2-0.1z" style="fill:#FFFFFF;" />
+                                                <path id="Vector-51" class="st3" d="M10.1,3.8v1.6c0,0.2,0,0.3,0,0.5c-0.2,2.9-1.8,4.4-4.9,4.4h-6.5c-0.2,0-0.4,0-0.6,0
+                                                    C-4.1,10.4-6,8.6-6.1,6.4c0-0.1,0-0.2,0-0.3c0-0.2,0-0.4,0-0.6V3.8c0-1.6,1-3.1,2.5-3.7c0.5-0.2,1-0.3,1.6-0.3h8.1
+                                                    c0.4,0,0.8,0.1,1.2,0.2C9,0.5,10.1,2,10.1,3.8z" style="opacity:0.4;fill:#FFFFFF;enable-background:new" />
+                                                <path id="Vector-61" class="st4" d="M-2.2-3.4l-1.5,3.5c-1.5,0.6-2.5,2.1-2.5,3.7V1.4C-6.1-0.9-4.5-2.9-2.2-3.4z" style="opacity:0.6;fill:#FFFFFF;enable-background:new;" />
+                                                <path id="Vector-71" class="st4" d="M10.1,1.4v2.4C10.1,2,9,0.5,7.2-0.1c0.4-0.8,0.5-1.7,0.3-2.6c0-0.1,0-0.1-0.1-0.2
+                                                    C9.1-2.1,10.1-0.4,10.1,1.4z" style="opacity:0.6;fill:#FFFFFF;enable-background:new;"/>
+                                                <path id="Vector-81" class="st5" d="M-8-8h20v20H-8V-8z" style="fill:none;" />
+                                            </g>
+                                        </g>
+                                    </g>
+                                    </svg>
+                                    </span>
+                                </div>
+                          </div>
+                          
                           <div class="error" role="alert"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
                               <path class="base" fill="#000" d="M8.5,17 C3.80557963,17 0,13.1944204 0,8.5 C0,3.80557963 3.80557963,0 8.5,0 C13.1944204,0 17,3.80557963 17,8.5 C17,13.1944204 13.1944204,17 8.5,17 Z"></path>
                               <path class="glyph" fill="#FFF" d="M8.5,7.29791847 L6.12604076,4.92395924 C5.79409512,4.59201359 5.25590488,4.59201359 4.92395924,4.92395924 C4.59201359,5.25590488 4.59201359,5.79409512 4.92395924,6.12604076 L7.29791847,8.5 L4.92395924,10.8739592 C4.59201359,11.2059049 4.59201359,11.7440951 4.92395924,12.0760408 C5.25590488,12.4079864 5.79409512,12.4079864 6.12604076,12.0760408 L8.5,9.70208153 L10.8739592,12.0760408 C11.2059049,12.4079864 11.7440951,12.4079864 12.0760408,12.0760408 C12.4079864,11.7440951 12.4079864,11.2059049 12.0760408,10.8739592 L9.70208153,8.5 L12.0760408,6.12604076 C12.4079864,5.79409512 12.4079864,5.25590488 12.0760408,4.92395924 C11.7440951,4.59201359 11.2059049,4.59201359 10.8739592,4.92395924 L8.5,7.29791847 L8.5,7.29791847 Z"></path>
@@ -286,7 +501,6 @@ function popup_product_widget(){
                           </a>
                         </div>
                     </div>
-                
             </div>
         </div>
       </div>
@@ -294,10 +508,10 @@ function popup_product_widget(){
       <script src="https://js.stripe.com/v3/"></script>
       <script type="text/javascript" src="'.plugin_dir_url( __FILE__ ).'assets/js/stripe_index.js"></script>
       <link rel="stylesheet" href="'.plugin_dir_url( __FILE__ ).'assets/css/example4.css">
-
-
-    </div>
+ </div>
     <link rel="stylesheet" href="'.plugin_dir_url( __FILE__ ).'assets/css/cp_styles.css">
+
+
     <script>
         function openForm() {
           document.getElementById("myForm").style.display = "block";
@@ -359,9 +573,22 @@ function popup_product_widget(){
 
             }
        
-    </script>
 
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="'.plugin_dir_url( __FILE__ ).'assets/css/dark_theme.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script>
+$(document).on("change",".switch",function() { 
+     $("body").toggleClass("dark");
+    });
+    $(document).click(function(){
+        $("#cp-close-icon").click(function(){
+            $("body").removeclass("dark");
+            })
+        });
         document.addEventListener("DOMContentLoaded",function(){
           "use strict";
     
@@ -460,12 +687,15 @@ function popup_product_widget(){
 		if(pro_id == ""){
 				jQuery(".tawk-product-description").hide();
 		} else {
+            var r = "";
 			jQuery.ajax({
 				type:"post",
 				url:"'.admin_url('admin-ajax.php').'",
 				data:{action:"get_custom_product_info",pro_id:pro_id},
-				success:function(res){
-				     jQuery(".tawk-product-description").html(res);
+				success:function(res){ 
+                    r += res;
+                    r += $("#ex").html();
+				     jQuery(".tawk-product-description").html(r);
 					jQuery(".tawk-product-description").show();
 					
 				}
@@ -479,6 +709,8 @@ function popup_product_widget(){
         jQuery(".cell").removeClass("cp-intro");
         jQuery(".tabs-container").removeClass("intro");
     });
+
+
 
     </script>
 
@@ -498,7 +730,7 @@ function get_custom_product_info(){
                          </div>
                              <div class="product-price-sec">
                                     <label>Price</label>
-                                     <span>'.wc_price($product->get_price()).'</span>    
+                                     <span class="price-spann">'.wc_price($product->get_price()).'</span>    
                                 </div>';
 	}
 	die();

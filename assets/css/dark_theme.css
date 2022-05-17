@@ -1,0 +1,111 @@
+   .dark button.open-button img {
+        background-color: #000;
+    }
+   .dark .cp-chat-img {
+        background: #000 !important;
+    }
+   .dark .cp-chat-img img {
+    background: transparent !important;
+}
+ .dark   button.btn.cancel {
+        background-color: black;
+    }
+.dark .live-btn .live-che, .dark .cp-make-pay, .dark .sttripe-pmnt-div a.back_to_form {
+    background-color: #FFF;
+    color: #00C4F0;
+}
+.dark .tawk-product label, .dark .cp-enter-amout label {
+    color: #fff;
+}
+.dark select.cp_product_options {
+    color: #8C8C8C;
+}
+.dark p.cp_error_p, .dark .cp_error_p_amt {
+    background-color: transparent;
+    color: red;
+}
+.dark .tawk-product .woocommerce ul.products li.product a.add_to_cart_button {
+    background-color: #000;
+}
+.dark .cp-live-btn button.cp-make-pay {
+    background-color: #000;
+    color: #fff;
+}
+.dark .cp-enter-amout input::placeholder {
+    color: #000;
+}
+
+/*---------------*/
+.dark .cp-enter-amout input {
+    border: 1px solid #E8E8E8;
+}
+.dark .currency-div::before {
+    color: #fff;
+}
+.dark .cp-enter-amout input::placeholder {
+    color: #8C8C8C;
+}
+.dark .cp-enter-amout textarea {
+    border: 1px solid #E8E8E8;
+    color: #8C8C8C;
+}
+.dark .tabs-container .tabs input[type=radio]:checked + label {
+  border-bottom: 2px solid #000;
+}
+.dark .tabs-container .tabs .tab ul li {
+  border: 1px solid #000000;
+}
+
+.dark .product-description-sec p {
+    color: #8C8C8C !important;
+}
+.dark .product-price-sec span:not(.woocommerce-Price-currencySymbol) {
+    color: #fff;
+}
+/*NEW CSS IS HERE*/
+.dark .paymnt_popupp {
+    background-color: rgb(164 164 164 / 50%);
+}
+.dark .paymnt_popupp > .form-container {
+    background: #00000052 0% 0% no-repeat padding-box;
+}
+.dark .paymnt_popupp .tawk-body {
+    border-top: 1px dashed #fff;
+}
+.dark .paymnt_popupp select.cp_product_options {
+    background: rgba(255, 255, 255, 0.32) 0% 0% no-repeat padding-box;
+    color: #fff;
+}
+.dark .paymnt_popupp select.cp_product_options option {
+    color: #000;
+}
+.dark .tabs-container .tabs .tab .live-btn, .pay-btnnn {
+    border-top: 1px dashed #fff;
+}
+.dark .tabs-container .tabs > input[type=radio] ~ label {
+    background: #00000052 0% 0% no-repeat padding-box;
+     color: #fff !important;
+}
+.dark .tabs-container .tabs > input:checked + label {
+    color: #000 !important;
+    background: #fff;
+}
+.dark .product-description-sec > p {
+    border: 1px dashed #fff;
+}
+.dark.product-price-sec > span.price-spann {
+    border: 1px dashed #fff;
+}
+.dark .tab .form-control, .dark .card-header_inner > button {
+    background: #00000052 0% 0% no-repeat padding-box;
+    color: #fff !important;
+}
+.dark .cardd .card-body {
+    background: #00000036 0% 0% no-repeat padding-box;
+}
+.dark .tab .form-control::placeholder {
+    color: #fff !important;
+}
+.dark .stripe-main-div {
+    background: #00000052 0% 0% no-repeat padding-box !important;
+}
