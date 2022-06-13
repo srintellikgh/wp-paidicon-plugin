@@ -2,6 +2,17 @@
 body, input, textarea, select, h2, h3, button, input, optgroup, select, textarea {
     font-family: 'Poppins', sans-serif !important;
 }
+select option {
+    color: #000;
+}
+.form-group .form-control {
+    width: 100%;
+    padding: 16px;
+    border-radius: 6px;
+}
+.form-group {
+    padding-bottom: 16px;
+}
 .open-button img {
         width: 20px;
         height: 20px;
@@ -66,6 +77,20 @@ body, input, textarea, select, h2, h3, button, input, optgroup, select, textarea
         border-radius: 5px 5px 0px 0px;
         font-size: 20px;
     }*/
+    .card_payment-mainn {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 14px;
+    justify-content: space-between;
+    color: #fff;
+    border-radius: 6px;
+    position: relative;
+}
+.card_payment-mainn > span {
+    position: absolute;
+    right: 16px;
+}
     .form-container .test-f {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -74,7 +99,7 @@ body, input, textarea, select, h2, h3, button, input, optgroup, select, textarea
     border-radius: 5px 5px 0px 0px;
     font-size: 20px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
     button.btn.cancel {
@@ -465,6 +490,7 @@ button.open-button {
 
 
 /*NEW CSS IS HERE*/
+
 .flex-row {
     display: flex;
     flex-wrap: wrap;
@@ -481,7 +507,7 @@ button.open-button {
 }
 .powered-by > span {
     font-size: 12px !important;
-    padding-right: 5px;
+    padding-right: 8px;
     color: #fff !important;
     opacity: .5;
     font-weight: 600 !important;
@@ -512,8 +538,7 @@ button.open-button {
     transform: translateY(-50%);
     position: relative;
     max-height: 90vh;
-    overflow-y: auto;
-    overflow-x: hidden;
+    overflow: hidden;
     backdrop-filter: blur(40px);
 }
 .paymnt_popupp > .form-container {
@@ -531,6 +556,8 @@ button.open-button {
     border: none;
     border-top: 1px dashed #fff;
     padding-top: 32px;
+    max-height: calc(90vh - 175px);
+    overflow-y: auto;
 }
 .head-pop-title, .paymentt-title {
     font-size: 28px !important;
@@ -678,6 +705,7 @@ svg path.vector-211 {
     opacity: 0;
     height: 0;
     transition: height .3s ease;
+    overflow: hidden;
 }
 .payment-secc .collapse.show {
     visibility: visible;
@@ -770,4 +798,73 @@ slider.round:before {
     margin-right: -25px;
     padding-left: 25px;
     padding-right: 25px;
+}
+
+@media (max-width:  600px) {
+    .head-pop-title, .paymentt-title {
+    font-size: 24px !important;
+}
+p.subtitle-descp {
+    font-size: 14px;
+    line-height: 1.3;
+}
+.custom-switchh {
+    width: 50px;
+    height: 28px;
+    min-width: 50px;
+}
+.custom-switchh .slider:before {
+    height: 20px;
+    width: 20px;
+}
+.custom-switchh input:checked + .slider:before {
+    -webkit-transform: translateX(22px);
+    -ms-transform: translateX(22px);
+    transform: translateX(22px);
+}
+.payment-secc {
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.paymnt_popupp .tawk-body {
+    padding-top: 20px;
+}
+.tabs-container .tabs > input[type=radio] ~ label {
+    padding: 10px 15px;
+    line-height: 20px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+.cp-enter-amout input {
+    padding: 8px 16px 8px 28px;
+    font-size: 14px;
+}
+.cp-enter-amout textarea {
+    height: 95px !important;
+}
+.card-header_inner > button {
+    padding: 11px 45px 10px 15px;
+}
+.tabs-container .tabs .tab .live-btn, .pay-btnnn {
+    margin-top: 20px;
+    padding: 20px 20px 20px;
+}
+.tabs-container .tabs .tab .live-btn {
+    margin-top: 20px;
+    padding: 20px 20px 20px;
+}
+.powered-by {
+    width: 100%;
+    justify-content: center;
+    margin-top: 15px;
+}
+.form-group .form-control, select.cp_product_options {
+    padding: 10px 16px;
+}
+}
+
+@media (max-width:  480px) {
+    .tabs-container .tabs .tab .live-btn {
+    justify-content: center;
+}
 }
