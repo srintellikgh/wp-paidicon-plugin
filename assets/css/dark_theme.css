@@ -73,7 +73,7 @@
     border-top: 1px dashed #fff;
 }
 .dark .paymnt_popupp select.cp_product_options {
-    background: rgba(255, 255, 255, 0.32) 0% 0% no-repeat padding-box;
+    background: #00000052 0% 0% no-repeat padding-box;
     color: #fff;
 }
 .dark .paymnt_popupp select.cp_product_options option {
